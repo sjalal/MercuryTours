@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Test Suite" duration-ms="38425" started-at="2015-07-08T17:43:03Z" finished-at="2015-07-08T17:43:41Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test" duration-ms="38425" started-at="2015-07-08T17:43:03Z" finished-at="2015-07-08T17:43:41Z">
+      <class name="com.pack.test.FlightFinderPageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="initializeTestBaseSetup" is-config="true" duration-ms="6985" started-at="2015-07-08T12:43:03Z" finished-at="2015-07-08T12:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="setup" is-config="true" duration-ms="0" started-at="2015-07-08T12:43:10Z" finished-at="2015-07-08T12:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="sampleTest" duration-ms="1" started-at="2015-07-08T12:43:10Z" finished-at="2015-07-08T12:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="verifyFlightType()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="verifyFlightType" duration-ms="2929" started-at="2015-07-08T12:43:10Z" finished-at="2015-07-08T12:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightType -->
+        <test-method status="PASS" signature="verifyImgSrc()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="verifyImgSrc" duration-ms="115" started-at="2015-07-08T12:43:13Z" finished-at="2015-07-08T12:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImgSrc -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="tearDown" is-config="true" duration-ms="235" started-at="2015-07-08T12:43:13Z" finished-at="2015-07-08T12:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="testing" duration-ms="0" started-at="2015-07-08T12:43:13Z" finished-at="2015-07-08T12:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- com.pack.test.FlightFinderPageTest -->
+      <class name="com.pack.test.SignInPageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="initializeTestBaseSetup" is-config="true" duration-ms="26582" started-at="2015-07-08T12:43:13Z" finished-at="2015-07-08T12:43:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="setup" is-config="true" duration-ms="0" started-at="2015-07-08T12:43:40Z" finished-at="2015-07-08T12:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="sampleTest" duration-ms="0" started-at="2015-07-08T12:43:40Z" finished-at="2015-07-08T12:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="verifyPageTitle" duration-ms="97" started-at="2015-07-08T12:43:40Z" finished-at="2015-07-08T12:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="verifySignIn()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="verifySignIn" duration-ms="1224" started-at="2015-07-08T12:43:40Z" finished-at="2015-07-08T12:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIn -->
+        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="testing" duration-ms="1" started-at="2015-07-08T12:43:41Z" finished-at="2015-07-08T12:43:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="tearDown" is-config="true" duration-ms="241" started-at="2015-07-08T12:43:41Z" finished-at="2015-07-08T12:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.test.SignInPageTest -->
+      <class name="com.pack.test.SampleTestClass">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SampleTestClass@39ba5a14]" name="sampleTest" duration-ms="0" started-at="2015-07-08T12:43:41Z" finished-at="2015-07-08T12:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+      </class> <!-- com.pack.test.SampleTestClass -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Page Object Test Suite -->
+</testng-results>

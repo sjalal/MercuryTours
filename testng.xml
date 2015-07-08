@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Page Object Test Suite">
+	<parameter name="browserType" value="firefox" />
+	<parameter name="appUrl" value="http://newtours.demoaut.com/" />
+	<test name="Smoke Test">
+		<classes>
+			<class name="com.pack.test.FlightFinderPageTest" />
+			<class name="com.pack.test.SignInPageTest" />
+			<class name="com.pack.test.SampleTestClass" />
+		</classes>
+	</test>
+
+</suite>
