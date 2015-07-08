@@ -102,19 +102,21 @@ public class FlightFinderPage {
 		sel.selectByValue(preference);
 	}
 	
-	public void clickContinue(){
+	/*public void clickContinue(){
 		WebElement element = driver.findElement(continueBtn);
 		if (element.isDisplayed()||element.isEnabled())
 			element.click();
-	}
-	
-	/*public SelectFlightPage clickContinue(){
-	 * 	System.out.println("Clicking on continue");
-		WebElement element = driver.findElement(continueBtn);
-		if (element.isDisplayed()||element.isEnabled())
-			element.click();
-		return new SelectFlightPage(driver);
 	}*/
+	
+	public SelectFlightPage clickContinue(){
+	  	System.out.println("Click on continue..");
+		WebElement element = driver.findElement(continueBtn);
+		if (element.isDisplayed()||element.isEnabled())
+			element.click();
+		else 
+			System.out.println("Element not found");
+		return new SelectFlightPage(driver);
+	}
 	
 }
 
