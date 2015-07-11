@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Test Suite" duration-ms="18751" started-at="2015-07-08T17:33:18Z" finished-at="2015-07-08T17:33:37Z">
+  <suite name="Page Object Test Suite" duration-ms="14716" started-at="2015-07-11T03:52:07Z" finished-at="2015-07-11T03:52:21Z">
     <groups>
     </groups>
-    <test name="Smoke Test" duration-ms="18751" started-at="2015-07-08T17:33:18Z" finished-at="2015-07-08T17:33:37Z">
+    <test name="Smoke Test" duration-ms="14716" started-at="2015-07-11T03:52:07Z" finished-at="2015-07-11T03:52:21Z">
       <class name="com.pack.test.FlightFinderPageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="initializeTestBaseSetup" is-config="true" duration-ms="6857" started-at="2015-07-08T12:33:18Z" finished-at="2015-07-08T12:33:25Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="initializeTestBaseSetup" is-config="true" duration-ms="5210" started-at="2015-07-10T22:52:07Z" finished-at="2015-07-10T22:52:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -23,27 +23,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="setup" is-config="true" duration-ms="0" started-at="2015-07-08T12:33:25Z" finished-at="2015-07-08T12:33:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="setup" is-config="true" duration-ms="0" started-at="2015-07-10T22:52:12Z" finished-at="2015-07-10T22:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="sampleTest" duration-ms="7" started-at="2015-07-08T12:33:25Z" finished-at="2015-07-08T12:33:25Z">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="sampleTest" duration-ms="10" started-at="2015-07-10T22:52:12Z" finished-at="2015-07-10T22:52:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="verifyFlightType()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="verifyFlightType" duration-ms="3196" started-at="2015-07-08T12:33:25Z" finished-at="2015-07-08T12:33:29Z">
+        <test-method status="PASS" signature="verifyFlightType()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="verifyFlightType" duration-ms="1332" started-at="2015-07-10T22:52:12Z" finished-at="2015-07-10T22:52:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFlightType -->
-        <test-method status="PASS" signature="verifyImgSrc()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="verifyImgSrc" duration-ms="118" started-at="2015-07-08T12:33:29Z" finished-at="2015-07-08T12:33:29Z">
+        <test-method status="PASS" signature="verifyImgSrc()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="verifyImgSrc" duration-ms="56" started-at="2015-07-10T22:52:13Z" finished-at="2015-07-10T22:52:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyImgSrc -->
-        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="testing" duration-ms="1" started-at="2015-07-08T12:33:29Z" finished-at="2015-07-08T12:33:29Z">
+        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="testing" duration-ms="1" started-at="2015-07-10T22:52:13Z" finished-at="2015-07-10T22:52:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -55,17 +55,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="tearDown" is-config="true" duration-ms="228" started-at="2015-07-08T12:33:29Z" finished-at="2015-07-08T12:33:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.FlightFinderPageTest@4cdbe50f]" name="tearDown" is-config="true" duration-ms="1203" started-at="2015-07-10T22:52:13Z" finished-at="2015-07-10T22:52:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pack.test.FlightFinderPageTest -->
       <class name="com.pack.test.SignInPageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="initializeTestBaseSetup" is-config="true" duration-ms="6254" started-at="2015-07-08T12:33:29Z" finished-at="2015-07-08T12:33:35Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="initializeTestBaseSetup" is-config="true" duration-ms="4751" started-at="2015-07-10T22:52:15Z" finished-at="2015-07-10T22:52:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -77,27 +77,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="setup" is-config="true" duration-ms="1" started-at="2015-07-08T12:33:35Z" finished-at="2015-07-08T12:33:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="setup" is-config="true" duration-ms="0" started-at="2015-07-10T22:52:19Z" finished-at="2015-07-10T22:52:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="sampleTest" duration-ms="1" started-at="2015-07-08T12:33:35Z" finished-at="2015-07-08T12:33:35Z">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="sampleTest" duration-ms="1" started-at="2015-07-10T22:52:19Z" finished-at="2015-07-10T22:52:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="verifyPageTitle" duration-ms="106" started-at="2015-07-08T12:33:35Z" finished-at="2015-07-08T12:33:35Z">
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="verifyPageTitle" duration-ms="17" started-at="2015-07-10T22:52:19Z" finished-at="2015-07-10T22:52:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method status="PASS" signature="verifySignIn()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="verifySignIn" duration-ms="1533" started-at="2015-07-08T12:33:35Z" finished-at="2015-07-08T12:33:37Z">
+        <test-method status="PASS" signature="verifySignIn()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="verifySignIn" duration-ms="863" started-at="2015-07-10T22:52:19Z" finished-at="2015-07-10T22:52:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignIn -->
-        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="testing" duration-ms="1" started-at="2015-07-08T12:33:37Z" finished-at="2015-07-08T12:33:37Z">
+        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="testing" duration-ms="3" started-at="2015-07-10T22:52:20Z" finished-at="2015-07-10T22:52:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -109,13 +109,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="tearDown" is-config="true" duration-ms="403" started-at="2015-07-08T12:33:37Z" finished-at="2015-07-08T12:33:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@28f67ac7]" name="tearDown" is-config="true" duration-ms="1249" started-at="2015-07-10T22:52:20Z" finished-at="2015-07-10T22:52:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pack.test.SignInPageTest -->
       <class name="com.pack.test.SampleTestClass">
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SampleTestClass@1fbc7afb]" name="sampleTest" duration-ms="1" started-at="2015-07-08T12:33:37Z" finished-at="2015-07-08T12:33:37Z">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SampleTestClass@1fbc7afb]" name="sampleTest" duration-ms="0" started-at="2015-07-10T22:52:21Z" finished-at="2015-07-10T22:52:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
