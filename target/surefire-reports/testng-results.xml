@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Test Suite" duration-ms="15389" started-at="2015-07-11T03:58:43Z" finished-at="2015-07-11T03:58:58Z">
+  <suite name="Page Object Test Suite" duration-ms="14299" started-at="2015-07-14T14:57:24Z" finished-at="2015-07-14T14:57:38Z">
     <groups>
     </groups>
-    <test name="Smoke Test" duration-ms="15389" started-at="2015-07-11T03:58:43Z" finished-at="2015-07-11T03:58:58Z">
+    <test name="Smoke Test" duration-ms="14299" started-at="2015-07-14T14:57:24Z" finished-at="2015-07-14T14:57:38Z">
       <class name="com.pack.test.FlightFinderPageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="initializeTestBaseSetup" is-config="true" duration-ms="5587" started-at="2015-07-10T22:58:43Z" finished-at="2015-07-10T22:58:49Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="initializeTestBaseSetup" is-config="true" duration-ms="5319" started-at="2015-07-14T09:57:24Z" finished-at="2015-07-14T09:57:29Z">
           <params>
             <param index="0">
               <value>
@@ -23,27 +23,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="setup" is-config="true" duration-ms="1" started-at="2015-07-10T22:58:49Z" finished-at="2015-07-10T22:58:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="setup" is-config="true" duration-ms="1" started-at="2015-07-14T09:57:29Z" finished-at="2015-07-14T09:57:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="sampleTest" duration-ms="4" started-at="2015-07-10T22:58:49Z" finished-at="2015-07-10T22:58:49Z">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="sampleTest" duration-ms="5" started-at="2015-07-14T09:57:29Z" finished-at="2015-07-14T09:57:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="verifyFlightType()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="verifyFlightType" duration-ms="1432" started-at="2015-07-10T22:58:49Z" finished-at="2015-07-10T22:58:50Z">
+        <test-method status="PASS" signature="verifyFlightType()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="verifyFlightType" duration-ms="1369" started-at="2015-07-14T09:57:29Z" finished-at="2015-07-14T09:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFlightType -->
-        <test-method status="PASS" signature="verifyImgSrc()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="verifyImgSrc" duration-ms="46" started-at="2015-07-10T22:58:50Z" finished-at="2015-07-10T22:58:50Z">
+        <test-method status="PASS" signature="verifyImgSrc()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="verifyImgSrc" duration-ms="51" started-at="2015-07-14T09:57:30Z" finished-at="2015-07-14T09:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyImgSrc -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="tearDown" is-config="true" duration-ms="1172" started-at="2015-07-10T22:58:50Z" finished-at="2015-07-10T22:58:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="testing" duration-ms="0" started-at="2015-07-10T22:58:50Z" finished-at="2015-07-10T22:58:50Z">
+        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="testing" duration-ms="0" started-at="2015-07-14T09:57:30Z" finished-at="2015-07-14T09:57:30Z">
           <params>
             <param index="0">
               <value>
@@ -59,9 +55,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.FlightFinderPageTest@7c30a502]" name="tearDown" is-config="true" duration-ms="1185" started-at="2015-07-14T09:57:30Z" finished-at="2015-07-14T09:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.pack.test.FlightFinderPageTest -->
       <class name="com.pack.test.SignInPageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="initializeTestBaseSetup" is-config="true" duration-ms="4898" started-at="2015-07-10T22:58:51Z" finished-at="2015-07-10T22:58:56Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="initializeTestBaseSetup" is-config="true" duration-ms="4394" started-at="2015-07-14T09:57:32Z" finished-at="2015-07-14T09:57:36Z">
           <params>
             <param index="0">
               <value>
@@ -77,27 +77,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="setup" is-config="true" duration-ms="3" started-at="2015-07-10T22:58:56Z" finished-at="2015-07-10T22:58:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="sampleTest" duration-ms="1" started-at="2015-07-10T22:58:56Z" finished-at="2015-07-10T22:58:56Z">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="sampleTest" duration-ms="0" started-at="2015-07-14T09:57:36Z" finished-at="2015-07-14T09:57:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="verifyPageTitle" duration-ms="18" started-at="2015-07-10T22:58:56Z" finished-at="2015-07-10T22:58:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="setup" is-config="true" duration-ms="0" started-at="2015-07-14T09:57:36Z" finished-at="2015-07-14T09:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="verifyPageTitle" duration-ms="26" started-at="2015-07-14T09:57:36Z" finished-at="2015-07-14T09:57:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method status="PASS" signature="verifySignIn()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="verifySignIn" duration-ms="1001" started-at="2015-07-10T22:58:56Z" finished-at="2015-07-10T22:58:57Z">
+        <test-method status="PASS" signature="verifySignIn()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="verifySignIn" duration-ms="773" started-at="2015-07-14T09:57:36Z" finished-at="2015-07-14T09:57:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="tearDown" is-config="true" duration-ms="1198" started-at="2015-07-10T22:58:57Z" finished-at="2015-07-10T22:58:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="testing" duration-ms="0" started-at="2015-07-10T22:58:57Z" finished-at="2015-07-10T22:58:57Z">
+        <test-method status="PASS" signature="testing(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="testing" duration-ms="1" started-at="2015-07-14T09:57:37Z" finished-at="2015-07-14T09:57:37Z">
           <params>
             <param index="0">
               <value>
@@ -113,9 +109,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@30c7da1e]" name="tearDown" is-config="true" duration-ms="1162" started-at="2015-07-14T09:57:37Z" finished-at="2015-07-14T09:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.pack.test.SignInPageTest -->
       <class name="com.pack.test.SampleTestClass">
-        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SampleTestClass@39ba5a14]" name="sampleTest" duration-ms="0" started-at="2015-07-10T22:58:58Z" finished-at="2015-07-10T22:58:58Z">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.pack.test.SampleTestClass@39ba5a14]" name="sampleTest" duration-ms="0" started-at="2015-07-14T09:57:38Z" finished-at="2015-07-14T09:57:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->

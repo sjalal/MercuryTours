@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Page Object Test Suite]">
+  <parameter name="password" value="test"/>
   <parameter name="appUrl" value="http://newtours.demoaut.com/"/>
-  <parameter name="browserType" value="ie"/>
+  <parameter name="userId" value="test"/>
+  <parameter name="browserType" value="chrome"/>
   <test name="Smoke Test(failed)">
     <classes>
-      <class name="com.pack.test.SignInPageTest">
+      <class name="com.pack.test.SelectFlightPageTest">
         <methods>
-          <include name="verifySignIn"/>
-          <include name="verifyPageTitle"/>
-          <include name="sampleTest"/>
+          <include name="verifySelectPage"/>
+          <include name="verifyContinue"/>
           <include name="testing"/>
+          <include name="verifyOutFlight"/>
         </methods>
-      </class> <!-- com.pack.test.SignInPageTest -->
-      <class name="com.pack.test.FlightFinderPageTest">
-        <methods>
-          <include name="verifyFlightType"/>
-          <include name="verifyImgSrc"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="initializeTestBaseSetup"/>
-        </methods>
-      </class> <!-- com.pack.test.FlightFinderPageTest -->
+      </class> <!-- com.pack.test.SelectFlightPageTest -->
     </classes>
   </test> <!-- Smoke Test(failed) -->
 </suite> <!-- Failed suite [Page Object Test Suite] -->

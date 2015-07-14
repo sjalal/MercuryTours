@@ -9,33 +9,27 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-
 
 public class TestBaseSetup {
 
 	protected WebDriver driver;
 	static String chromeDriverPath = "C:/Users/sjalal0228/Desktop/Selenium_Java/Drivers/chromedriver_win32/";
 	static String ieDriverPath = "C:/Users/sjalal0228/Desktop/Selenium_Java/Drivers/IEDriverServer_x64_2.46.0/";
-	
-	//private String baseUrl;
-	
-	
-	/*public WebDriver getDriver() throws Exception{
-		Properties p = new Properties();
-		FileInputStream fi = new FileInputStream("C:\\app\\MercuryTour\\global.properties");
-		p.load(fi);
-		baseUrl = p.getProperty("url");
-		if (p.getProperty("browser").contains("firefox"))
-			driver = new FirefoxDriver();
-			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			driver.get(baseUrl);
-			return driver;
-	}*/
+
+	// private String baseUrl;
+
+	/*
+	 * public WebDriver getDriver() throws Exception{ Properties p = new
+	 * Properties(); FileInputStream fi = new
+	 * FileInputStream("C:\\app\\MercuryTour\\global.properties"); p.load(fi);
+	 * baseUrl = p.getProperty("url"); if
+	 * (p.getProperty("browser").contains("firefox")) driver = new
+	 * FirefoxDriver(); driver.manage().window().maximize();
+	 * driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	 * driver.get(baseUrl); return driver; }
+	 */
 
 	public WebDriver getDriver() {
-		// System.out.println(driver);
 		return driver;
 	}
 
@@ -55,7 +49,7 @@ public class TestBaseSetup {
 			driver = initFirefoxDriver(appUrl);
 		}
 	}
-			
+
 	private static WebDriver initFirefoxDriver(String appURL) {
 		System.out.println("Launching Firefox browser..");
 		WebDriver driver = new FirefoxDriver();
@@ -64,7 +58,7 @@ public class TestBaseSetup {
 		driver.navigate().to(appURL);
 		return driver;
 	}
-	
+
 	private WebDriver initChromeDriver(String appURL) {
 		// initialize chrome driver
 		System.out.println("Launching google chrome with new profile..");
@@ -76,20 +70,19 @@ public class TestBaseSetup {
 		driver.navigate().to(appURL);
 		return driver;
 	}
-	
-	private static WebDriver initIEDriver(String appURL){
-		//initialize IE driver
+
+	private static WebDriver initIEDriver(String appURL) {
+		// initialize IE driver
 		System.out.println("Launching Internet Explorer..");
-		System.setProperty("webdriver.ie.driver", ieDriverPath 
-				+"IEDriverServer.exe");
+		System.setProperty("webdriver.ie.driver", ieDriverPath
+				+ "IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.navigate().to(appURL);
-		return driver;	
+		return driver;
 	}
-	
-	
+
 	@BeforeClass
 	@Parameters({ "browserType", "appUrl" })
 	public void initializeTestBaseSetup(String browserType, String appUrl) {
@@ -100,17 +93,10 @@ public class TestBaseSetup {
 		}
 	}
 
-	@Test
-	@Parameters({ "browserType", "appUrl" })
-	public void testing(String browser, String url) {
-		System.out.println("Browser Type: " + browser);
-		System.out.println("URL Address: " + url);
-	}
-
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
 	}
-	
+
 }// TestBaseSetup
 

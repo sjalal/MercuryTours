@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Page Object Test Suite">
+	<parameter name="userId" value="test" />
+	<parameter name="password" value="test" />
 	<parameter name="browserType" value="chrome" />
 	<parameter name="appUrl" value="http://newtours.demoaut.com/" />
 	<test name="Smoke Test">
 		<classes>
-			<class name="com.pack.test.FlightFinderPageTest" />
+			<!-- <class name="com.pack.test.FlightFinderPageTest" />
 			<class name="com.pack.test.SignInPageTest" />
-			<class name="com.pack.test.SampleTestClass" />
+			<class name="com.pack.test.SampleTestClass" /> -->
+			<class name="com.pack.test.SelectFlightPageTest" />
 		</classes>
 	</test>
-
 </suite>
